@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TestOpenizeWordsExamples24._5._0</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Openize.Words.Examples" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Openize.Words.Examples" Version="24.5.0" />
+  </ItemGroup>
+</Project>
